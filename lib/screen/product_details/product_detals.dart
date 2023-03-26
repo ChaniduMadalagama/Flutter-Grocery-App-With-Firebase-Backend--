@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grocery_app/cart/cart.dart';
 import 'package:grocery_app/components/custem_button.dart';
 import 'package:grocery_app/components/custem_text.dart';
 import 'package:grocery_app/models/vegitable.dart';
@@ -111,7 +112,14 @@ class _ProductDetailsState extends State<ProductDetails> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  CustemButton(onTap: () {}, text: "Add to Cart"),
+                  CustemButton(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Cart()));
+                      },
+                      text: "Add to Cart"),
                   const SizedBox(
                     height: 30,
                   )

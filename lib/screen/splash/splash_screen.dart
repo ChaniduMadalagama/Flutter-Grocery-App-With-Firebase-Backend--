@@ -1,11 +1,10 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:grocery_app/cart/sucess.dart';
 import 'package:grocery_app/components/custem_text.dart';
-import 'package:grocery_app/screen/auth/signup.dart';
-import 'package:grocery_app/screen/profile/profile.dart';
 import 'package:grocery_app/utils/app_colors.dart';
 import 'package:grocery_app/utils/asset_constant.dart';
+
+import '../auth/login_page.dart';
 
 class SpalshScreen extends StatefulWidget {
   const SpalshScreen({super.key});
@@ -20,7 +19,7 @@ class _SpalshScreenState extends State<SpalshScreen> {
     super.initState();
     Future.delayed(const Duration(seconds: 4), () {
       Navigator.push(
-          context, MaterialPageRoute(builder: (context) => const Success()));
+          context, MaterialPageRoute(builder: (context) => const SignIn()));
     });
   }
 

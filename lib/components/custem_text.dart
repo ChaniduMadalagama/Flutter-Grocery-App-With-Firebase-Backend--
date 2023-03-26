@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 class CustemText extends StatelessWidget {
   const CustemText({
-    required this.text,
+     required this.text,
     this.fontsize = 30,
     this.fontWeight = FontWeight.w600,
     required this.color,
