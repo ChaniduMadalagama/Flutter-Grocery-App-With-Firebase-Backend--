@@ -1,4 +1,4 @@
-#Mon Mar 06 09:01:54 IST 2023
-base.0=/Volumes/Personal/flutter_cource/grocery_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Mar 26 17:35:31 IST 2023
+base.0=E\:\\Flutter Projects\\Flutter-Grocery-App-With-Firebase-Backend--\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -52,7 +52,11 @@ class Success extends StatelessWidget {
                   const SizedBox(
                     height: 320,
                   ),
-                  CustemButton(onTap: () {}, text: 'See Your Oder'),
+                  CustemButton(
+                      onTap: () {
+                        Navigator.pop(context);
+                      },
+                      text: 'See Your Oder'),
                 ],
               ),
             )
